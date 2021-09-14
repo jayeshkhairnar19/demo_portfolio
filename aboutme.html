@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="style1.css"> -->
+    <title>About me</title>
+    <style>
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .para {
+            /* background-color: rgb(233, 30, 30); */
+            color: rgb(255, 255, 255);
+            border: 2px solid rgb(255, 255, 255);
+            width: 373px;
+            margin-left: 900px;
+            margin-top: 100px;
+            font-size: 25px;
+            padding: 5px;
+            border-radius: 5px;
+            transition: all 0.5 ease-in-out;
+        }
+        .para:hover{
+            transform: scale(1.09);
+        }
+
+        h1 {
+            text-align: center;
+            color:  rgb(255, 255, 255);
+        }
+
+        body {
+            background-color: rgb(0,0,0);
+        }
+
+        .photo {
+            margin-top: -465px;
+            margin-left: 178px;
+            
+        }
+        @media only screen and (max-width:500px){
+            .container{
+                display: inline-block;
+                width: 400px;
+                height: 400px;
+                
+                
+        }
+         .photo img{
+           width: 100px;
+           height: 100px;
+            margin-left: -81px;
+            margin-top: -212px;
+        }
+        .photo{
+            margin-top: -607px;
+        }
+        .para P{
+            /* display: inline-block; */
+            background-color:rgb(0,0,0);
+            color: rgb(255, 255, 255);
+            /* border: 2px solid white; */
+            margin-left: 23px;
+            margin-top: 100px;
+            font-size: 25px;
+            padding: 5px;
+            border-radius: 5px;
+            transition: all 0.5 ease-in-out;
+        }
+        .para{
+            /* display: inline-block; */
+            
+            /* background-color: rgb(233, 30, 30); */
+            color: rgb(255, 255, 255);
+            /* border: 2px solid white; */
+            margin-left: -19px;
+            margin-top: 100px;
+            font-size: 15px;
+            padding-top: 5px;
+            border-radius: 5px;
+            transition: all 0.5 ease-in-out;
+            
+        }
+
+    }
+        
+        
+    </style>
+</head>
+
+<body>
+    <h1>About me</h1>
+    <div class="container">
+    
+    <div class="para">
+        <p> I’m a currently a third year student in computer science at Modern Education Society’s College Of
+            engineering, Pune.<br> I’m already fluent in Python,c++. I’m currently learning Web Development.<br> I’m a
+            developer at DSE MESCOE in my college.<br> I believe that learning is a journey and not a destination
+            therefore I am constantly learning and improving myself so that I can become a better version of myself
+            everyday!</p>
+    </div>
+    <div class="photo">
+        <img src="passport.PNG" alt="Loading">
+    </div>
+</div>
+
+</body>
+
+</html>

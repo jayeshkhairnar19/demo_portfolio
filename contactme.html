@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+    <style>
+       
+        body{
+            background-color: black;
+            color: white;
+        }
+        h1{
+            text-align: center;
+            color: orange;
+            margin-top: 25px;
+        }
+        #contact_me{
+            font-size: 23px;
+            width: 400px;
+            /* border: 2px solid red; */
+            margin-left: 600px;
+            margin-top: 63px;
+        }
+
+        .form{
+           
+            display: flex;
+            flex-direction: column;
+            width: 250px;
+            margin-left: 600px;
+            
+            
+           
+        }
+        #NAME{
+            background-color: orange;
+            color: white;
+            padding: 5px;
+            border-radius: 5px;
+            font-size: larger;
+        }
+        #TEXT{
+            background-color: orange;
+            color: white;
+            padding: 5px;
+            border-radius: 5px;
+            font-size: larger;
+        }
+        #EMAIL{
+            background-color: orange;
+            color: white;
+            padding: 5px;
+            border-radius: 5px;
+            font-size: larger;
+        }
+        #MYTEXT{
+            background-color: orange;
+            color: white;
+            padding: 5px;
+            border-radius: 5px;
+            font-size: larger;
+        }
+        #form_btn{
+            background-color: orange;
+            color: white;
+            margin-left: 650px;
+            padding: 5px;
+            border-radius: 5px;
+            width: 100px;
+            font-size: larger;
+            
+        }
+        @media only screen and (max-width:500px){
+            body{
+            background-color: black;
+            color: white;
+        }
+        h1{
+            text-align: center;
+            color: orange;
+            margin-top: 25px;
+        }
+        #contact_me{
+            font-size: 23px;
+            width: 259px;
+            /* border: 2px solid red; */
+            margin-left: 69px;
+            margin-top: 63px;
+        }
+        .form{
+           
+           display: flex;
+           flex-direction: column;
+           width: 250px;
+           margin-left: 48px;
+           
+           
+          
+       }
+       #form_btn{
+            background-color: orange;
+            color: white;
+            margin-left: 99px;
+            padding: 5px;
+            border-radius: 5px;
+            width: 100px;
+            font-size: larger;
+            
+        }
+   }
+
+        
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1>Contact me</h1>
+    <div id="contact_me">
+        <p>If you have any questions/comments or want to work together , please feel free to drop me a line using the form. I will get back to you as soon as possible!</p>
+    </div>
+    <div class="form">
+        <input type="name" placeholder="Enter Your Name" id="NAME"><br>
+        <input type="email" placeholder="Enter Your Email" id="EMAIL"><br>
+        <input type="text" placeholder="Subject" id="TEXT"><br>
+        <textarea name="my text" cols="50" rows="10" placeholder="Message me" id="MYTEXT"></textarea><br>
+        
+
+       
+    </div>
+    <button id="form_btn" onclick="saveData()">Submit</button>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
